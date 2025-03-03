@@ -69,7 +69,7 @@ APPS_DIR=(
 
 ---
 
-### Usage
+## Usage
 
 1. **Make the script executable:**
 ```bash
@@ -85,7 +85,7 @@ The script logs all actions to /var/log/backup_apps.log. You can monitor the log
 tail -f /var/log/backup_apps.log
 ```
 ---
-### Logging
+## Logging
 The script logs all actions and errors to /var/log/backup_apps.log. Log entries include timestamps, log levels (`INFO`, `WARN`, `ERROR`, `SUCCESS`), and descriptive messages.
 
 Example log entries:
@@ -96,7 +96,7 @@ Example log entries:
 ```
 
 ---
-### Backup Retention
+## Backup Retention
 The script automatically deletes backups older than the number of days specified in `BACKUP_STORAGE_TIME`. This ensures that old backups do not consume unnecessary disk space.
 
 ## License
