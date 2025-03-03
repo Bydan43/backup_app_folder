@@ -106,5 +106,5 @@ All code in this repository is licensed under the terms of the `MIT License`. Fo
 
 ## Author
 
-Bydanov Ilya
+Bydanov Ilya \
 Email: bydanav@gmail.com
